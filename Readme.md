@@ -5,7 +5,7 @@ O.o
 
 A module that gives you random lizard facts.
 
-https://www.npmjs.com/package/lizard-facts
+[![NPM](https://nodei.co/npm/lizard-facts.png)](https://nodei.co/npm/lizard-facts/)
 
 ## How to use
 
