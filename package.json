@@ -25,8 +25,5 @@
   "xo": {
     "extends": "vdemedes",
     "env": "node"
-  },
-  "dependencies": {
-    "unique-random-array": "^1.0.0"
-  }
+  }}
 }

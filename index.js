@@ -1,16 +1,16 @@
-'use strict';
+// Strict mode in 2020 maybe 
 
 /**
  * Dependencies
  */
-
-var uniqueRandomArray = require('unique-random-array');
-var lizardFacts = require('./lizard-facts.json');
-
+const lizardFacts = require('./lizard-facts.json'); // You arent redefining lizardFacts so use const
 
 /**
  * Interesting lizard facts
  */
 
-exports.random = uniqueRandomArray(lizardFacts);
-exports.all = lizardFacts;
+const random = () => {
+	return lizardFacts[Math.floor(Math.random() * lizardFacts.length)]
+};
+module.exports.random = random();
+module.exports.all = lizardFacts;
