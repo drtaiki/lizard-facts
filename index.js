@@ -5,12 +5,12 @@
  */
 
 var uniqueRandomArray = require('unique-random-array');
-var catFacts = require('./cat-facts.json');
+var lizardFacts = require('./lizard-facts.json');
 
 
 /**
- * Interesting cat facts
+ * Interesting lizard facts
  */
 
-exports.random = uniqueRandomArray(catFacts);
+exports.random = uniqueRandomArray(lizardFacts);
 exports.all = catFacts;
