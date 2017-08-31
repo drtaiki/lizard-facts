@@ -13,4 +13,4 @@ var lizardFacts = require('./lizard-facts.json');
  */
 
 exports.random = uniqueRandomArray(lizardFacts);
-exports.all = catFacts;
+exports.all = lizardFacts;
