@@ -1,6 +1,19 @@
 
 O.o
 
+## How to use
+
+``npm install lizard-facts``
+
+```
+const lizardFacts = require('lizard-facts');
+
+lizardFacts.random()
+lizardFacts.all
+
+```
+
+
 ## Sources for Facts
 
 http://www.scienceforkidsclub.com/lizard-facts.html
