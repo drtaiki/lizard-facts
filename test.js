@@ -4,8 +4,8 @@
  * Dependencies
  */
 
-const allFacts = require('./cat-facts.json');
-const catFacts = require('./');
+const allFacts = require('./lizard-facts.json');
+const lizardFacts = require('./');
 const test = require('ava');
 
 
@@ -14,23 +14,23 @@ const test = require('ava');
  */
 
 test('random fact', t => {
-	const randomFact = catFacts.random();
+	const randomFact = lizardFacts.random();
 
 	t.true(allFacts.indexOf(randomFact) >= 0);
 });
 
 test('all facts', t => {
-	t.same(catFacts.all, allFacts);
+	t.same(lizardFacts.all, allFacts);
 });
 
 test('no facts should have extranous whitespace', t => {
-	catFacts.all.forEach(fact => {
+	lizardFacts.all.forEach(fact => {
 		t.same(fact.trim(), fact);
 	});
 });
 
 test('no facts should be duplicate', t => {
-	const set = new Set(catFacts.all);
+	const set = new Set(lizardFacts.all);
 
-	t.same(set.size, catFacts.all.length);
+	t.same(set.size, lizardFacts.all.length);
 });
