@@ -1,21 +1,21 @@
 {
-  "name": "cat-facts",
-  "version": "1.0.2",
-  "description": "Interesting cat facts",
+  "name": "lizard-facts",
+  "version": "1.0.0",
+  "description": "Interesting facts about lizards.",
   "license": "MIT",
   "main": "index.js",
-  "repository": "vdemedes/cat-facts",
+  "repository": "TheSecretPenguin/lizard-facts",
   "author": {
-    "name": "Vadim Demedes",
-    "email": "vdemedes@gmail.com",
-    "url": "https://github.com/vdemedes"
+    "name": "ohlookitsderpy",
+    "email": "davetheprogrammer2@gmail.com",
+    "url": "https://github.com/TheSecretPenguin"
   },
   "scripts": {
     "test": "xo && ava"
   },
   "files": [
     "index.js",
-		"cat-facts.json"
+		"lizard-facts.json"
   ],
   "devDependencies": {
     "ava": "^0.11.0",
