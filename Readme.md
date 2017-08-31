@@ -1,6 +1,12 @@
 
 O.o
 
+## About
+
+A module that gives you random lizard facts.
+
+https://www.npmjs.com/package/lizard-facts
+
 ## How to use
 
 ``npm install lizard-facts``
@@ -26,7 +32,7 @@ http://www.sciencekids.co.nz/sciencefacts/animals/lizard.html
 
 https://animalcorner.co.uk/animals/lizards/
 
-## License (Original)
+## License and stuff
 
 MIT © [Vadim Demedes](https://github.com/vdemedes)
 
